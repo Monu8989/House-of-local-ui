@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255,245,235);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255,245,235);
+    display: flex;
+    padding-top: 20px;
+  
+}
+.box{
+    width: 90%;
+    height: 60px;
+    position: relative;
+    left:70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav span{
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav span button{
+    width: 80px;
+    height: auto;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.704);
+}
+.nav span i,h2{
+    color: rgba(0, 0, 0, 0.704);
+}
+.left{
+    width: 45%;
+    height:600px;
+    display: flex;
+    border: 1px solid gray;
+    /* border-radius: 10px; */
+    align-items: center;
+    justify-content: center;
+
+}
+.right{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    border: 1px solid gray;
+    /* border-radius: 10px; */
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.right h6{
+    color: rgba(0, 0, 0, 0.675);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.right h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.right p{
+    color: rgba(0, 0, 0, 0.675);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.right span {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+.right span h2 {
+       font-size: 14px;
+       color: rgba(0, 0, 0, 0.704);
+      margin-left: 5px;
+    
+}
+.right span h1 {
+    font-size: 28px;
+    color: black;
+    
+    
+}
+#btn{
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background:none ;
+    color: black;
+    font-size: 15px;
+    margin: 0;
+    border: 1px solid black;
+}
+.right span i{
+    margin-left: 5px;
+    color:rgb(58,80,47);
+}
+#btn2{
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    margin: 0;
+}
+.right span button{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(58,80,47);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left:20px;
+}
+.right h1{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.417);
+}
+.right h1 i{
+    color: rgba(0, 0, 0, 0.816);
+}
+
+
+
+
+
+/* resposive css with 480px */
+@media (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        width:80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 0;
+      
+    }
+    .box span i{
+        font-size: 15px;
+    }
+    .box span h1{
+        font-size: 15px;
+        
+    }
+    .box span h2{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .box span{
+        justify-content:start;
+        margin-left: 10px;
+    }
+    .box span button{
+        font-size: 15px;
+        
+    }
+    .nav h1{
+        font-size:20px;
+        text-align: center;
+        
+    }
+    .cont{
+        width:100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left{
+        width: 80%;
+        height: auto;
+    }
+    .left img{
+        width: 300px;
+    }
+    .right{
+        width: 80%;
+        height: auto;
+    }
+    .right span button{
+        margin:0;
+        margin-left: 10px;
+        padding: 0;
+        width:180px;
+    }
+    #btn2{
+        width: 100px;
+    }
+    .right h1{
+        text-align:start;
+        font-size: 15px;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+}
+@media (max-width:420px) {
+    .right span button{
+        margin:0;
+        margin-left: 10px;
+        padding: 0;
+        width:150px;
+    }
+    #btn2{
+        width:80px;
+    }
+    
+}
